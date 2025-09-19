@@ -1,35 +1,27 @@
-# === Python cache / virtualenv ===
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.pkl
-*.pklz
-*.egg-info/
-.env
-.venv/
-.ipynb_checkpoints/
-
-# === System files ===
-.DS_Store
-Thumbs.db
-
-# === Data files (raw & processed) ===
+# Ignore raw data (too large for GitHub)
 data/raw/*
-data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
 
-# === Outputs (ignore all, except a few key ones) ===
-outputs/figures/*
-outputs/reports/*
+# Ignore reports 
+reports/*
 
-# Keep important outputs for portfolio
-!outputs/figures/sentiment_distribution_vader.png
-!outputs/figures/confusion_matrix_vader_vs_ml.png
-!outputs/reports/vader_vs_ml_sentiment_comparison.csv
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
 
-# === Logs / temp ===
+# Ignore system files
+.DS_Store
+
+# Ignore logs and temporary files
 *.log
 *.tmp
 *.bak
+
+# Ignore specific notebooks you don’t want to track
+notebooks/notebooks_03_sentiment-analysis-amazonfashion-reviews.ipynb
+notebooks/notebooks_03_sentiment-analysis-amazonfashion-reviews_v2.ipynb
+
+# But keep all figures!
+!outputs/figures/*
+
+
