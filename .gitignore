@@ -1,0 +1,35 @@
+# === Python cache / virtualenv ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.pklz
+*.egg-info/
+.env
+.venv/
+.ipynb_checkpoints/
+
+# === System files ===
+.DS_Store
+Thumbs.db
+
+# === Data files (raw & processed) ===
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# === Outputs (ignore all, except a few key ones) ===
+outputs/figures/*
+outputs/reports/*
+
+# Keep important outputs for portfolio
+!outputs/figures/sentiment_distribution_vader.png
+!outputs/figures/confusion_matrix_vader_vs_ml.png
+!outputs/reports/vader_vs_ml_sentiment_comparison.csv
+
+# === Logs / temp ===
+*.log
+*.tmp
+*.bak
