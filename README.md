@@ -1,4 +1,4 @@
-# Sentiment Analysis on Amazon Fashion Reviews 👗🛒
+# Sentiment Analysis on Amazon Fashion Reviews 
 
 This project applies Natural Language Processing (NLP) to analyze customer sentiment in **Amazon Fashion reviews**.  
 It combines **VADER sentiment analysis** with a basic **machine learning model (SGDClassifier + TF-IDF)** to classify reviews into **positive, neutral, or negative** categories.
