@@ -32,6 +32,8 @@ sentiment-analysis/
 │── .gitignore
 │── README.md           <- project documentation
 
+```
+
 ---
 
 ##  Workflow
