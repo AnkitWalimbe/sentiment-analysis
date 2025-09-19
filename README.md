@@ -23,7 +23,7 @@ It combines **VADER sentiment analysis** with a basic **machine learning model (
 ---
 
 ##  Repository Structure
-
+```plaintext
 sentiment-analysis/
 │── data/               <- raw data (ignored), dataset instructions in README.md
 │── notebooks/          <- Jupyter notebooks
