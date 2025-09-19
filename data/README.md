@@ -7,7 +7,7 @@ Due to size constraints, raw data is not included in this repository.
 You can download the dataset from:  
 https://www.kaggle.com/datasets/ankitwalimbe2596/amazon-fashion-huggingfacedataset
 
-Specifically, use the **Amazon Fashion JSONL** file.  
+Specifically, use the Amazon_Fashion.jsonl file.  
 
 ## Usage
 - Place the downloaded file into `data/raw/` and rename it as: 
